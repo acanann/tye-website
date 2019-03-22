@@ -1,0 +1,137 @@
+/**css for all website pages*/
+
+body {
+	background-color: aliceblue;
+    padding: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: gainsboro;
+    padding: 10px 16px;
+    position: relative;
+    border-radius: 15px 50px;
+    bottom: 10px;
+}
+
+#logo {
+    position: absolute;  
+}
+
+h1, h2, h3{
+	color: #2774ae;
+	text-align: center;
+	font-family: "Museo Slab","Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 1.5em;
+    padding: 0 110px;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+    margin: 5px; 
+    font-family: "Museo Slab","Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #2774ae;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: inset 5px #2774ae;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    bottom: 10px;
+    top: 10px;
+}
+
+.picText {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.meetLship {
+    border: dotted 10px navy;
+    padding: 16px;
+    padding-bottom: 75px;
+}
+
+#lshipPics {
+    display: block;
+}
+
+.lship {
+    position: relative;
+    float: right;
+}
+
+#weather {
+    border: solid 5px navy;
+    padding: 10px;
+}
+
+footer {
+    background-color: slategrey;
+    padding: 10px 16px;
+    position: relative;
+    border-radius: 50px 15px;
+    font-family: "Museo Slab","Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: whitesmoke;
+    padding: 15px;
+    top: 35px;
+ }
+
+.footer-contact {
+    margin-left: 8px;
+    position: absolute;
+}
+
+.social-media img {
+    height: 2em;
+    background-color: #fff;
+    max-width: 100%;
+}
+
+.social-media {
+    list-style: none;
+    text-align: right;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
